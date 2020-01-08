@@ -65,3 +65,7 @@ gem 'devise'
 gem 'pry-rails'
 gem 'jquery-rails'
 gem 'font-awesome-sass'
+
+group :production do
+  gem 'pg'
+end
