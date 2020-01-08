@@ -52,6 +52,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: bowling_app_production
-  username: bowling_app
-  password: <%= ENV['BOWLING_APP_DATABASE_PASSWORD'] %>
+  database: mydatabase
+  # username: bowling_app
+  # password: <%= ENV['BOWLING_APP_DATABASE_PASSWORD'] %>
