@@ -1,0 +1,97 @@
+<header>
+  <div class="header-container">
+    <%= link_to :root do  %>
+    <i class="fas fa-angle-left icon"></i>
+    
+    <% end %>
+  
+    <p class=top>1つだけクリックして下さい</p>
+    <p class= top_a>ボールをクリックして下さい</p>
+  </div>
+</header>
+
+<div class=top-container >
+
+  <div class = top_s-container>
+     
+    <div class = top_s></div>
+  
+  </div>
+</div>
+<div class="container" >
+<div class="container-shadow" >
+<%= render '/bowlings/pin_top'%>
+
+<div class="lane-container" >
+  
+    <div class="lane" >
+      <div class = "borderline-all">
+        <div class = "borderline"></div>
+        <div class = "borderline"></div>
+        <div class = "borderline"></div>
+        <div class = "borderline"></div>
+  </div>
+        <div class="spat-all">
+          <div class="spat"></div>
+          <div class="spat"></div>
+          <div class="spat"></div>
+          <div class="spat_center"></div>
+          <div class="spat"></div>
+          <div class="spat"></div>
+          <div class="spat"></div>
+        
+      </div>
+    </div>
+    <div class="lane-buttom">
+      <div class="ball">
+        <%= render '/shared/pin_1'%>
+        <%= render '/shared/pin_2'%>
+        <%= render '/shared/pin_3'%>
+        <%= render '/shared/pin_4'%>
+        <%= render '/shared/pin_5'%>
+        <%= render '/shared/pin_6'%>
+        <%= render '/shared/pin_7'%>
+        <%= render '/shared/pin_8'%>
+        <%= render '/shared/pin_9'%>
+        <%= render '/shared/pin_10'%>
+      </div>
+
+      <div class="message-container">
+        <%= render '/message/message_1'%>
+        <%= render '/message/message_2'%>
+        <%= render '/message/message_3'%>
+        <%= render '/message/message_4'%>
+        <%= render '/message/message_5'%>
+        <%= render '/message/message_6'%>
+        <%= render '/message/message_7'%>
+        <%= render '/message/message_8'%>
+        <%= render '/message/message_9'%>
+        <%= render '/message/message_10'%>
+          
+        
+      <div>
+      
+      <div class="release-dot">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    
+      <div class="stand-dot">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+    </div>

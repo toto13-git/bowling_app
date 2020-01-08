@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'kosugimaru';
+  src: font-url('KosugiMaru-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansJP-Regular';
+  src: font-url('NotoSansJP-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansJP-Bold';
+  src: font-url('NotoSansJP-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  font-family: 'NotoSansJP-Regular';
+  
+}
+
+.btn-ok,.top,.top_a{
+  font-family: 'NotoSansJP-Bold';
+
+}
+h1{
+  font-family: 'NotoSansJP-Bold';
+
+}

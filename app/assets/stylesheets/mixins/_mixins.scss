@@ -1,0 +1,77 @@
+@mixin pin {
+  font-family: 'NotoSansJP-Bold';
+  width: 3rem;
+  height: 3rem;
+  background-color: #333;
+  border-radius: 50%;
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@mixin pin-container{
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+@mixin pin-svg{
+  width: 3.4rem;
+  height: 10rem;
+  position: absolute;
+  bottom:0em;
+  left: -0.3rem;
+  display: none;
+  transform: rotate(360deg);
+  transition: transform 2s;
+  cursor: pointer;
+  z-index: 10;
+}
+
+@mixin ball{
+  width: 6rem;
+  height: 6rem;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  display: none;
+  top: 8rem;
+  cursor: pointer;
+}
+
+@mixin spat{
+  width: 0rem;
+  height: 0em;
+  margin: -10rem auto 0;
+  /*三角の作り方*/
+  border-right: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+}
+
+@mixin message{
+  width: 34rem;
+  padding: 0.5rem;
+  line-height: 150%;
+  letter-spacing: 0.1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.6rem;
+  background-color: #fff;
+  position: absolute;
+  top: -6.5rem;
+  left: 1rem;
+  border-radius: 1rem;
+  opacity: 0;
+}
+
+@mixin message_before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #fff;
+}
